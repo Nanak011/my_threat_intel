@@ -34,5 +34,11 @@
     "ip": "31.76.240.204",
     "classification": "Automated Web Scan",
     "summary": "The IP initiated a connection and then performed a GET request to the root using a Go-http-client user-agent, typical of automated web reconnaissance."
+  },
+  {
+    "timestamp": "2026-05-28 16:11:11",
+    "ip": "94.102.56.99",
+    "classification": "Web Scanner Probe",
+    "summary": "The IP performed a GET request for '/startpage/start.html', characteristic of an automated web scanner probing for common entry points or default web pages."
   }
 ]
