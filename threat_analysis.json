@@ -1,26 +1,8 @@
 [
   {
-    "timestamp": "2026-05-28 12:01:37",
-    "ip": "45.148.10.67",
-    "classification": "Web Scanner Probe",
-    "summary": "This IP initiated a standard GET request to the root path using a common browser user-agent, typical behavior for a basic web scanner probing for active services."
-  },
-  {
-    "timestamp": "2026-05-28 12:38:59",
-    "ip": "43.153.101.233",
-    "classification": "Web Scanner Probe",
-    "summary": "This IP performed a GET request to the root directory with an iPhone Safari user-agent, indicative of a scanner performing initial reconnaissance on a web service."
-  },
-  {
-    "timestamp": "2026-05-28 14:09:51",
-    "ip": "178.214.77.68",
-    "classification": "Directory Enumeration Search",
-    "summary": "This IP attempted to access a common administrative configuration file (`/admin/config.php`) using a non-standard user-agent, suggesting an automated directory enumeration or vulnerability scanning attempt."
-  },
-  {
-    "timestamp": "2026-05-28 14:10:05",
-    "ip": "176.65.139.66",
-    "classification": "Shodan Internet Scanner",
-    "summary": "This IP is clearly identified as a Shodan scanner performing an internet-wide reconnaissance scan, indicated by its specific User-Agent string."
+    "timestamp": "2026-05-28 14:26:12",
+    "ip": "167.94.146.50",
+    "classification": "Automated Reconnaissance",
+    "summary": "The IP initiated an automated reconnaissance scan, characterized by an initial web probe using the CensysInspect user-agent, followed by an attempt to upgrade to WebSocket and sending raw, non-HTTP data, suggesting broader port and service enumeration."
   }
 ]
