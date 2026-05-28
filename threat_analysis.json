@@ -4,5 +4,35 @@
     "ip": "167.94.146.50",
     "classification": "Automated Reconnaissance",
     "summary": "The IP initiated an automated reconnaissance scan, characterized by an initial web probe using the CensysInspect user-agent, followed by an attempt to upgrade to WebSocket and sending raw, non-HTTP data, suggesting broader port and service enumeration."
+  },
+  {
+    "timestamp": "2026-05-28 15:21:52",
+    "ip": "192.36.52.75",
+    "classification": "Web Server Probe",
+    "summary": "The IP performed a basic HTTP GET request to the root, likely probing for an active web server."
+  },
+  {
+    "timestamp": "2026-05-28 15:25:31",
+    "ip": "20.168.6.240",
+    "classification": "Application Protocol Probe",
+    "summary": "The IP sent a non-standard string to the honeypot, indicating an attempt to probe for specific application layer services or protocols."
+  },
+  {
+    "timestamp": "2026-05-28 15:34:38",
+    "ip": "147.182.225.45",
+    "classification": "Vulnerability Scan (Squid)",
+    "summary": "The IP, identified by the zgrab user-agent, specifically probed for the cachemgr.cgi path, indicating a scan for exposed Squid proxy manager interfaces."
+  },
+  {
+    "timestamp": "2026-05-28 15:43:49",
+    "ip": "45.148.10.67",
+    "classification": "Web Server Probe",
+    "summary": "This IP executed a standard HTTP GET request to the root, consistent with a generic web server reconnaissance scan."
+  },
+  {
+    "timestamp": "2026-05-28 15:47:48",
+    "ip": "31.76.240.204",
+    "classification": "Automated Web Scan",
+    "summary": "The IP initiated a connection and then performed a GET request to the root using a Go-http-client user-agent, typical of automated web reconnaissance."
   }
 ]
