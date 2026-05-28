@@ -40,5 +40,191 @@
     "ip": "94.102.56.99",
     "classification": "Web Scanner Probe",
     "summary": "The IP performed a GET request for '/startpage/start.html', characteristic of an automated web scanner probing for common entry points or default web pages."
+  },
+  {
+    "timestamp": "2026-05-28 16:22:04",
+    "ip": "159.195.52.136",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP initiated a basic HTTP GET request with a generic Go-http-client user agent, indicative of a general web scanner probing for services."
+  },
+  {
+    "timestamp": "2026-05-28 16:47:49",
+    "ip": "185.252.234.32",
+    "classification": "Port Scanner / Idle Connection",
+    "summary": "This IP made multiple connections without sending clear HTTP requests, indicating a port scan or idle connections from a scanner."
+  },
+  {
+    "timestamp": "2026-05-28 17:10:58",
+    "ip": "79.124.40.174",
+    "classification": "Advanced Vulnerability Scanning & Exploit Attempt",
+    "summary": "This IP conducted extensive and sophisticated vulnerability scanning and exploit attempts against common web application vulnerabilities."
+  },
+  {
+    "timestamp": "2026-05-28 17:16:45",
+    "ip": "187.17.224.139",
+    "classification": "Mass Port Scanning",
+    "summary": "This IP performed a basic HTTP GET request with a user agent identifying itself as 'ivre-masscan', indicating broad port scanning activity."
+  },
+  {
+    "timestamp": "2026-05-28 17:18:54",
+    "ip": "5.61.209.126",
+    "classification": "IoT Device Vulnerability Scan",
+    "summary": "This IP probed a specific path (`/SDK/webLanguage`), indicative of scanning for IoT devices or embedded systems known to have vulnerabilities."
+  },
+  {
+    "timestamp": "2026-05-28 17:21:28",
+    "ip": "198.57.179.68",
+    "classification": "Port Scanner / Idle Connection",
+    "summary": "This IP made multiple connections without sending clear HTTP requests, indicating a port scan or idle connections from a scanner."
+  },
+  {
+    "timestamp": "2026-05-28 18:14:41",
+    "ip": "163.7.1.156",
+    "classification": "Remote Code Execution Attempt",
+    "summary": "This IP attempted a CGI-BIN path traversal attack to achieve remote code execution, trying to download and execute a malicious shell script."
+  },
+  {
+    "timestamp": "2026-05-28 18:27:34",
+    "ip": "198.235.24.115",
+    "classification": "Legitimate Security Scan",
+    "summary": "This IP performed scanning activity while identifying itself as a legitimate security research or asset discovery service (Palo Alto Networks Cortex Xpanse)."
+  },
+  {
+    "timestamp": "2026-05-28 18:43:32",
+    "ip": "176.65.139.254",
+    "classification": "Credential Stuffing / Brute Force",
+    "summary": "This IP attempted to log into an administrative form with generic credentials, indicative of a credential stuffing or brute-force attack."
+  },
+  {
+    "timestamp": "2026-05-28 19:10:57",
+    "ip": "203.242.185.211",
+    "classification": "Mass Port Scanning",
+    "summary": "This IP performed a basic HTTP GET request with a user agent identifying itself as 'ivre-masscan', indicating broad port scanning activity."
+  },
+  {
+    "timestamp": "2026-05-28 19:18:49",
+    "ip": "78.159.131.56",
+    "classification": "Backdoor/Malware Probe",
+    "summary": "This IP probed for a specific and unusual PHP file (`/txets.php`), suggesting a search for existing backdoors or malware."
+  },
+  {
+    "timestamp": "2026-05-28 19:30:09",
+    "ip": "93.123.109.222",
+    "classification": "Web Application Reconnaissance",
+    "summary": "This IP probed for a common authentication endpoint (`/auth/sign-in`), indicating reconnaissance against web application login mechanisms."
+  },
+  {
+    "timestamp": "2026-05-28 19:46:41",
+    "ip": "216.48.189.165",
+    "classification": "Sensitive File Disclosure Scan",
+    "summary": "This IP aggressively scanned for various sensitive configuration and source code files, aiming to exploit misconfigurations."
+  },
+  {
+    "timestamp": "2026-05-28 19:48:32",
+    "ip": "69.5.169.232",
+    "classification": "Legitimate Security Scan",
+    "summary": "This IP performed scanning activity while identifying itself as a legitimate security research or asset discovery service (Infrawatch)."
+  },
+  {
+    "timestamp": "2026-05-28 19:49:26",
+    "ip": "165.154.49.137",
+    "classification": "Multi-Protocol / IoT Device Scanning",
+    "summary": "This IP exhibited chaotic scanning behavior, including RTSP probes and attempts to inject RDP-related cookies, suggesting a broad scan for various services and IoT devices."
+  },
+  {
+    "timestamp": "2026-05-28 19:50:26",
+    "ip": "193.176.31.245",
+    "classification": "Legitimate Security Scan",
+    "summary": "This IP performed scanning activity while identifying itself as a legitimate security research or asset discovery service (Infrawatch)."
+  },
+  {
+    "timestamp": "2026-05-28 19:50:27",
+    "ip": "185.223.235.40",
+    "classification": "Malformed Request / Binary Probe",
+    "summary": "This IP sent malformed data or binary probes, indicative of a scanner attempting to trigger errors or identify service types."
+  },
+  {
+    "timestamp": "2026-05-28 19:50:27",
+    "ip": "89.21.67.179",
+    "classification": "Malformed Request / Binary Probe",
+    "summary": "This IP sent malformed data or binary probes, indicative of a scanner attempting to trigger errors or identify service types."
+  },
+  {
+    "timestamp": "2026-05-28 20:05:00",
+    "ip": "18.118.200.52",
+    "classification": "Legitimate Security Scan",
+    "summary": "This IP performed scanning activity while identifying itself as a legitimate security research or asset discovery service (visionheight.com), and also sent some malformed requests."
+  },
+  {
+    "timestamp": "2026-05-28 20:10:33",
+    "ip": "185.142.99.76",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP initiated a basic HTTP GET request with a generic Go-http-client user agent, indicative of a general web scanner probing for services."
+  },
+  {
+    "timestamp": "2026-05-28 20:20:26",
+    "ip": "8.208.14.125",
+    "classification": "Multi-Protocol / API & IoT Device Scanning",
+    "summary": "This IP performed a multi-protocol scan including basic HTTP, JSON-RPC login attempts, or RTSP OPTIONS probes, suggesting a broad search for exposed APIs and IoT devices."
+  },
+  {
+    "timestamp": "2026-05-28 21:01:13",
+    "ip": "34.53.192.169",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP conducted a basic HTTP GET request using the python-requests library, commonly associated with automated web scanning."
+  },
+  {
+    "timestamp": "2026-05-28 21:06:45",
+    "ip": "198.235.24.249",
+    "classification": "Legitimate Security Scan",
+    "summary": "This IP performed scanning activity while identifying itself as a legitimate security research or asset discovery service (Palo Alto Networks Cortex Xpanse)."
+  },
+  {
+    "timestamp": "2026-05-28 21:09:42",
+    "ip": "110.35.80.116",
+    "classification": "Remote Code Execution Attempt",
+    "summary": "This IP attempted a CGI-BIN path traversal attack to achieve remote code execution, trying to download and execute a malicious shell script."
+  },
+  {
+    "timestamp": "2026-05-28 21:10:35",
+    "ip": "109.236.50.3",
+    "classification": "Remote Code Execution Attempt",
+    "summary": "This IP attempted a CGI-BIN path traversal attack to achieve remote code execution, trying to download and execute a malicious shell script."
+  },
+  {
+    "timestamp": "2026-05-28 21:37:49",
+    "ip": "18.220.94.142",
+    "classification": "Legitimate Security Scan",
+    "summary": "This IP performed scanning activity while identifying itself as a legitimate security research or asset discovery service (visionheight.com), and also sent some malformed requests."
+  },
+  {
+    "timestamp": "2026-05-28 22:30:58",
+    "ip": "122.96.31.237",
+    "classification": "Default Credential Brute Force",
+    "summary": "This IP attempted to log into an administrative form (`/boaform/admin/formLogin`) using common default 'admin:admin' credentials, indicative of a targeted brute-force attempt."
+  },
+  {
+    "timestamp": "2026-05-28 22:31:53",
+    "ip": "178.214.77.68",
+    "classification": "Configuration File Disclosure Scan",
+    "summary": "This IP probed for a common administrative configuration file (`/admin/config.php`) using a specific user agent, indicating a search for exposed sensitive data."
+  },
+  {
+    "timestamp": "2026-05-28 23:01:08",
+    "ip": "212.73.148.4",
+    "classification": "Legitimate Security Scan",
+    "summary": "This IP performed scanning activity while identifying itself as a legitimate security research or asset discovery service (ModatScanner), and also sent some malformed requests."
+  },
+  {
+    "timestamp": "2026-05-28 23:15:57",
+    "ip": "85.217.149.32",
+    "classification": "Legitimate Security Scan",
+    "summary": "This IP performed scanning activity while identifying itself as a legitimate security research or asset discovery service (ModatScanner), and also sent some malformed requests."
+  },
+  {
+    "timestamp": "2026-05-28 23:18:32",
+    "ip": "66.132.195.50",
+    "classification": "Multi-Protocol / Legitimate Security Scan",
+    "summary": "This IP performed scanning activity while identifying itself as a legitimate security research or asset discovery service (CensysInspect), including HTTP, WebSocket upgrade attempts, and MQTT protocol probes."
   }
 ]
