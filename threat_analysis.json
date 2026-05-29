@@ -586,5 +586,119 @@
     "ip": "109.123.101.63",
     "classification": "Connection Attempt",
     "summary": "This IP initiated a connection to the honeypot without sending any application-layer data, suggesting a basic port scan or an incomplete connection."
+  },
+  {
+    "timestamp": "2026-05-29 14:15:30",
+    "ip": "80.82.70.133",
+    "classification": "Generic Port Scan",
+    "summary": "This IP initiated a connection with garbled data, suggesting a general port scan or a failed protocol negotiation by an automated scanner."
+  },
+  {
+    "timestamp": "2026-05-29 14:16:51",
+    "ip": "74.244.87.145",
+    "classification": "Command Injection / Botnet Download",
+    "summary": "This IP attempted a command injection exploit via a GET request to download and execute a malicious payload, indicative of a botnet recruitment or compromise attempt."
+  },
+  {
+    "timestamp": "2026-05-29 14:44:14",
+    "ip": "204.76.203.10",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP performed a basic web server probe using curl, typically to identify active HTTP services."
+  },
+  {
+    "timestamp": "2026-05-29 15:39:49",
+    "ip": "23.240.192.117",
+    "classification": "Command Injection / Botnet Download",
+    "summary": "This IP attempted a command injection exploit via URL parameters to download and execute a malicious payload, suggesting a botnet compromise attempt."
+  },
+  {
+    "timestamp": "2026-05-29 15:53:20",
+    "ip": "212.73.148.22",
+    "classification": "Basic Port Scan",
+    "summary": "This IP made a connection without sending any discernible data, indicative of a basic port scan to identify open services."
+  },
+  {
+    "timestamp": "2026-05-29 16:10:08",
+    "ip": "212.73.148.2",
+    "classification": "Basic Port Scan",
+    "summary": "This IP made a connection without sending any discernible data, indicative of a basic port scan to identify open services."
+  },
+  {
+    "timestamp": "2026-05-29 16:24:17",
+    "ip": "195.140.214.19",
+    "classification": "Internet-Wide Scan",
+    "summary": "This IP performed an internet-wide scan using the Infrawatch tool, typically for reconnaissance and discovery of exposed services."
+  },
+  {
+    "timestamp": "2026-05-29 16:30:32",
+    "ip": "89.21.67.170",
+    "classification": "Internet-Wide Scan",
+    "summary": "This IP performed an internet-wide scan using the Infrawatch tool, typically for reconnaissance and discovery of exposed services."
+  },
+  {
+    "timestamp": "2026-05-29 16:30:32",
+    "ip": "89.21.67.177",
+    "classification": "Generic Port Scan / Malformed HTTP Probe",
+    "summary": "This IP connected with malformed data that included an HTTP/1.1 string, indicating a generic port scan or a non-standard client attempting to probe for HTTP services."
+  },
+  {
+    "timestamp": "2026-05-29 16:30:32",
+    "ip": "81.19.216.102",
+    "classification": "Generic Port Scan / Malformed HTTP Probe",
+    "summary": "This IP connected with malformed data, indicating a generic port scan or a non-standard client attempting to probe for services."
+  },
+  {
+    "timestamp": "2026-05-29 16:30:33",
+    "ip": "193.176.31.250",
+    "classification": "API Enumeration / Application Scan",
+    "summary": "This IP attempted to enumerate or exploit an API endpoint, suggesting a targeted application scan."
+  },
+  {
+    "timestamp": "2026-05-29 16:36:39",
+    "ip": "45.205.1.240",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP performed a basic web server probe using curl, typically to identify active HTTP services."
+  },
+  {
+    "timestamp": "2026-05-29 16:39:08",
+    "ip": "194.165.16.163",
+    "classification": "RDP Brute Force / Enumeration",
+    "summary": "This IP sent a request containing an `mstshash` cookie, indicating an attempt to enumerate or brute-force RDP services."
+  },
+  {
+    "timestamp": "2026-05-29 17:11:44",
+    "ip": "18.119.126.100",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP performed a web server probe using a User-Agent explicitly identifying itself as a scanner from 'visionheight.com'."
+  },
+  {
+    "timestamp": "2026-05-29 17:51:25",
+    "ip": "20.65.194.176",
+    "classification": "Internet-Wide Vulnerability Scan",
+    "summary": "This IP performed a targeted vulnerability scan using zgrab, specifically probing for a development server metadata uploader path."
+  },
+  {
+    "timestamp": "2026-05-29 17:52:17",
+    "ip": "192.227.229.63",
+    "classification": "Proxy Enumeration / Abuse",
+    "summary": "This IP attempted to use the honeypot as an HTTP proxy to connect to an external IP lookup service, indicating proxy enumeration or abuse."
+  },
+  {
+    "timestamp": "2026-05-29 18:07:53",
+    "ip": "192.163.218.172",
+    "classification": "Basic Port Scan",
+    "summary": "This IP made a connection without sending any discernible data, indicative of a basic port scan to identify open services."
+  },
+  {
+    "timestamp": "2026-05-29 18:31:21",
+    "ip": "168.144.158.42",
+    "classification": "Basic Port Scan",
+    "summary": "This IP made a connection without sending any discernible data, indicative of a basic port scan to identify open services."
+  },
+  {
+    "timestamp": "2026-05-29 19:43:16",
+    "ip": "198.235.24.98",
+    "classification": "Legitimate Security Scan",
+    "summary": "This IP performed a legitimate security scan, identified by its User-Agent as Palo Alto Networks Cortex Xpanse, which conducts internet-wide reconnaissance."
   }
 ]
