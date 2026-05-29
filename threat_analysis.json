@@ -568,5 +568,11 @@
     "ip": "193.235.238.6",
     "classification": "Unclassified Connection",
     "summary": "Sent unintelligible binary or malformed data, suggesting a non-standard protocol probe or corrupted connection attempt."
+  },
+  {
+    "timestamp": "2026-05-29 15:45:00",
+    "ip": "99.99.99.99",
+    "classification": "Web Scanner Probe",
+    "summary": "The IP initiated an HTTP GET request to an unusual path, indicative of a web scanner probing for server presence or potential endpoints."
   }
 ]
