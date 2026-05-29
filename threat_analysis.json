@@ -700,5 +700,29 @@
     "ip": "198.235.24.98",
     "classification": "Legitimate Security Scan",
     "summary": "This IP performed a legitimate security scan, identified by its User-Agent as Palo Alto Networks Cortex Xpanse, which conducts internet-wide reconnaissance."
+  },
+  {
+    "timestamp": "2026-05-29 20:00:25",
+    "ip": "192.241.134.156",
+    "classification": "Web Application Enumeration",
+    "summary": "This IP is conducting automated reconnaissance, probing for known paths related to a 'mbilling' web application, likely seeking vulnerable login pages or directory structures."
+  },
+  {
+    "timestamp": "2026-05-29 20:24:49",
+    "ip": "20.108.166.94",
+    "classification": "Basic Web Probe",
+    "summary": "This IP initiated a basic web probe to the root path, likely part of an automated scan or reconnaissance attempt."
+  },
+  {
+    "timestamp": "2026-05-29 21:03:38",
+    "ip": "51.11.223.21",
+    "classification": "Basic Web Probe",
+    "summary": "This IP performed a basic web probe to the root path, indicative of automated scanning activity."
+  },
+  {
+    "timestamp": "2026-05-29 21:23:03",
+    "ip": "143.105.129.244",
+    "classification": "Remote Code Execution Attempt",
+    "summary": "This IP is attempting a remote code execution exploit targeting GPON router vulnerabilities, aiming to download and execute a malicious payload to likely recruit the device into a botnet."
   }
 ]
