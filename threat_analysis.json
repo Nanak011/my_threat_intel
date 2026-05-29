@@ -244,5 +244,191 @@
     "ip": "187.108.1.142",
     "classification": "Masscan Internet Scan",
     "summary": "This IP conducted an internet-wide port scan using the `masscan` tool, signaling broad reconnaissance activity to discover active hosts and services."
+  },
+  {
+    "timestamp": "2026-05-29 01:04:40",
+    "ip": "185.247.137.169",
+    "classification": "Web Scanner Probe",
+    "summary": "The IP performed a web GET request with an 'InternetMeasurement' user agent, indicating a general internet scanning activity."
+  },
+  {
+    "timestamp": "2026-05-29 01:04:55",
+    "ip": "87.236.176.162",
+    "classification": "Web Vulnerability Scan",
+    "summary": "This IP engaged in web scanning, using GET and OPTIONS requests, and attempted to access a potentially vulnerable path, indicating directory enumeration or vulnerability probing."
+  },
+  {
+    "timestamp": "2026-05-29 01:05:12",
+    "ip": "87.236.176.179",
+    "classification": "Generic Port Scan",
+    "summary": "The IP sent unintelligible binary data, suggesting a generic port scan or an attempt to probe for an unknown service."
+  },
+  {
+    "timestamp": "2026-05-29 01:05:27",
+    "ip": "195.96.139.161",
+    "classification": "Generic Port Scan",
+    "summary": "The IP sent obscure, potentially binary data, indicative of a service probe or generic port scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:05:58",
+    "ip": "185.247.137.157",
+    "classification": "RDP Service Probe",
+    "summary": "The IP attempted to send an 'mstshash' cookie, strongly suggesting an RDP service probe or brute-force attempt."
+  },
+  {
+    "timestamp": "2026-05-29 01:06:14",
+    "ip": "195.96.139.173",
+    "classification": "RTSP Service Probe",
+    "summary": "This IP probed for RTSP services using an OPTIONS request, indicating a potential scan for streaming servers."
+  },
+  {
+    "timestamp": "2026-05-29 01:06:30",
+    "ip": "195.96.139.158",
+    "classification": "SIP Service Probe",
+    "summary": "The IP performed a SIP OPTIONS request, indicating a scan for active SIP services."
+  },
+  {
+    "timestamp": "2026-05-29 01:06:51",
+    "ip": "87.236.176.155",
+    "classification": "Generic Port Scan",
+    "summary": "The IP sent obscure binary data, characteristic of a generic port scan attempting to identify services."
+  },
+  {
+    "timestamp": "2026-05-29 01:07:22",
+    "ip": "87.236.176.150",
+    "classification": "Generic Port Scan",
+    "summary": "This IP sent what appears to be null or binary data, typical of a generic port scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:07:37",
+    "ip": "185.247.137.147",
+    "classification": "SMB Service Probe",
+    "summary": "The IP initiated an SMB probe, identifiable by 'SMBr' and 'NT LM' headers, suggesting a scan for network shares or vulnerabilities."
+  },
+  {
+    "timestamp": "2026-05-29 01:07:53",
+    "ip": "185.247.137.163",
+    "classification": "Redis Service Probe",
+    "summary": "The IP sent an 'info' command, characteristic of a Redis service scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:08:08",
+    "ip": "185.247.137.172",
+    "classification": "MQTT Service Probe",
+    "summary": "The IP sent MQTT connection initiation packets ('MQTT', 'MQIsdp'), indicating a scan for vulnerable MQTT brokers."
+  },
+  {
+    "timestamp": "2026-05-29 01:08:24",
+    "ip": "195.96.139.181",
+    "classification": "Generic Port Scan",
+    "summary": "The IP sent null data, typically seen during a generic port scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:08:39",
+    "ip": "185.247.137.176",
+    "classification": "LDAP Service Probe",
+    "summary": "The IP sent data containing an LDAP Object Identifier, indicating a probe for LDAP services."
+  },
+  {
+    "timestamp": "2026-05-29 01:08:55",
+    "ip": "185.247.137.159",
+    "classification": "Multi-Service Scan",
+    "summary": "This IP performed a multi-service scan, probing for MongoDB and iSCSI services, among others, suggesting a wide-ranging vulnerability assessment."
+  },
+  {
+    "timestamp": "2026-05-29 01:09:10",
+    "ip": "87.236.176.157",
+    "classification": "Generic Port Scan",
+    "summary": "The IP sent null data, characteristic of a generic port scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:09:41",
+    "ip": "185.247.137.152",
+    "classification": "XMPP Service Probe",
+    "summary": "The IP initiated an XMPP stream, identifying itself as a probe for Jabber services."
+  },
+  {
+    "timestamp": "2026-05-29 01:09:56",
+    "ip": "87.236.176.146",
+    "classification": "Generic Port Scan",
+    "summary": "The IP sent unintelligible binary data, suggesting a generic port scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:10:11",
+    "ip": "87.236.176.154",
+    "classification": "Oracle TNS Service Probe",
+    "summary": "The IP sent a query attempting to retrieve database version information via the Oracle TNS protocol, indicating an Oracle database scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:10:27",
+    "ip": "185.247.137.156",
+    "classification": "P2P Service Probe",
+    "summary": "The IP initiated a '/multistream/1.0.0' negotiation, indicating a probe for a multi-stream or P2P protocol service."
+  },
+  {
+    "timestamp": "2026-05-29 01:10:57",
+    "ip": "185.247.137.150",
+    "classification": "Generic Port Scan",
+    "summary": "The IP sent null or malformed data, indicative of a generic port scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:11:28",
+    "ip": "195.96.139.162",
+    "classification": "Generic Port Scan",
+    "summary": "The IP sent obscure binary data, characteristic of a generic port scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:11:43",
+    "ip": "87.236.176.164",
+    "classification": "DICOM Service Probe",
+    "summary": "The IP performed a DICOM ECHO SCU request, indicative of a scan for medical imaging services."
+  },
+  {
+    "timestamp": "2026-05-29 01:11:59",
+    "ip": "87.236.176.172",
+    "classification": "Messaging Service Probe",
+    "summary": "The IP initiated a 'CONNECT' request with version negotiation, suggesting a probe for a messaging protocol like STOMP."
+  },
+  {
+    "timestamp": "2026-05-29 01:12:14",
+    "ip": "195.96.139.169",
+    "classification": "Service Status Probe",
+    "summary": "The IP sent a 'stats' command, indicative of a service probe attempting to gather status information from a potential Memcached or similar service."
+  },
+  {
+    "timestamp": "2026-05-29 01:12:45",
+    "ip": "185.247.137.178",
+    "classification": "Service Fingerprinting",
+    "summary": "The IP sent a mix of binary data and a 'version' query, characteristic of a service probe attempting to identify or elicit information from an exposed service."
+  },
+  {
+    "timestamp": "2026-05-29 01:13:00",
+    "ip": "87.236.176.161",
+    "classification": "OPC UA Service Probe",
+    "summary": "The IP probed for OPC UA services using a 'UADiscovery' request, indicating a scan for industrial control systems."
+  },
+  {
+    "timestamp": "2026-05-29 01:13:31",
+    "ip": "195.96.139.165",
+    "classification": "Generic Port Scan",
+    "summary": "The IP sent null data, typical of a generic port scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:13:47",
+    "ip": "185.247.137.173",
+    "classification": "Generic Port Scan",
+    "summary": "The IP sent unintelligible binary data, suggesting a generic port scan."
+  },
+  {
+    "timestamp": "2026-05-29 01:55:52",
+    "ip": "93.174.93.12",
+    "classification": "Generic Application Layer Scan",
+    "summary": "The IP sent a binary payload containing the string 'syndication.twimg.com', indicating a generic application-layer scan or bot activity."
+  },
+  {
+    "timestamp": "2026-05-29 01:59:45",
+    "ip": "198.46.172.170",
+    "classification": "Port Scanning / Service Discovery",
+    "summary": "The IP performed a web GET request with the 'ivre-masscan' user agent, clearly indicating a port scanning and service discovery operation."
   }
 ]
