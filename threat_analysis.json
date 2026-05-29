@@ -454,5 +454,77 @@
     "ip": "20.169.105.9",
     "classification": "Application Vulnerability Scan (Tomcat)",
     "summary": "This IP used 'zgrab' to specifically probe for the Apache Tomcat Manager interface at '/manager/text/list', indicating an attempt to discover application vulnerabilities."
+  },
+  {
+    "timestamp": "2026-05-29 03:09:41",
+    "ip": "209.38.254.78",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP performed a web scan attempting to locate the '.env' configuration file, indicative of a reconnaissance probe."
+  },
+  {
+    "timestamp": "2026-05-29 03:11:30",
+    "ip": "209.59.154.232",
+    "classification": "Port Scan",
+    "summary": "The IP initiated a connection that resulted in an empty log entry, typically indicative of a basic port scan to discover open services."
+  },
+  {
+    "timestamp": "2026-05-29 03:29:10",
+    "ip": "178.214.77.67",
+    "classification": "Port/Vulnerability Scan",
+    "summary": "This IP used 'ivre-masscan' to perform a scan, suggesting a reconnaissance effort to discover open ports and potentially vulnerable services."
+  },
+  {
+    "timestamp": "2026-05-29 03:29:24",
+    "ip": "34.77.46.103",
+    "classification": "Multi-Protocol Service Scanner",
+    "summary": "This IP address extensively probed the honeypot with various application-layer protocols, characteristic of a comprehensive service discovery scan."
+  },
+  {
+    "timestamp": "2026-05-29 03:41:58",
+    "ip": "104.248.46.34",
+    "classification": "Command Injection Attempt",
+    "summary": "The IP attempted a path traversal command injection vulnerability, trying to download and execute a remote shell script, indicating an active exploitation attempt."
+  },
+  {
+    "timestamp": "2026-05-29 03:43:00",
+    "ip": "34.156.17.250",
+    "classification": "Multi-Protocol Service Scanner",
+    "summary": "This IP address initiated a broad multi-protocol service discovery scan, probing for various database, messaging, and remote execution services."
+  },
+  {
+    "timestamp": "2026-05-29 03:45:32",
+    "ip": "45.79.8.221",
+    "classification": "Multi-Protocol Service Scanner (ZGrab)",
+    "summary": "This IP utilized 'zgrab' for initial reconnaissance, followed by application-layer probes for SMB, RDP, Redis, Oracle TNS, and Tridium Niagara Fox protocol, indicating a wide-ranging service discovery scan."
+  },
+  {
+    "timestamp": "2026-05-29 04:05:06",
+    "ip": "216.234.223.221",
+    "classification": "IoT Device Exploitation Attempt",
+    "summary": "This IP targeted a known GPON router vulnerability with a command injection payload to download and execute a malicious script, suggesting an attempt to compromise IoT devices."
+  },
+  {
+    "timestamp": "2026-05-29 04:56:21",
+    "ip": "160.119.76.55",
+    "classification": "Port Scan",
+    "summary": "The IP initiated a connection that resulted in an empty log entry, typically indicative of a basic port scan to discover open services."
+  },
+  {
+    "timestamp": "2026-05-29 05:11:10",
+    "ip": "3.82.152.212",
+    "classification": "Basic Web Probe",
+    "summary": "This IP performed a basic HTTP GET request with a common browser user agent, likely for initial web server reconnaissance."
+  },
+  {
+    "timestamp": "2026-05-29 05:17:35",
+    "ip": "37.60.230.103",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP conducted a simple web probe using a Go-http-client, likely an automated scan for HTTP services."
+  },
+  {
+    "timestamp": "2026-05-29 05:23:00",
+    "ip": "66.132.172.141",
+    "classification": "Internet-wide Scan (Censys)",
+    "summary": "This IP is identified as a CensysInspect scanner, performing internet-wide reconnaissance scans to discover and fingerprint services."
   }
 ]
