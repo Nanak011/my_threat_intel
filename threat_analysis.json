@@ -226,5 +226,11 @@
     "ip": "66.132.195.50",
     "classification": "Multi-Protocol / Legitimate Security Scan",
     "summary": "This IP performed scanning activity while identifying itself as a legitimate security research or asset discovery service (CensysInspect), including HTTP, WebSocket upgrade attempts, and MQTT protocol probes."
+  },
+  {
+    "timestamp": "2026-05-28 23:43:55",
+    "ip": "177.124.88.216",
+    "classification": "Port Scanning",
+    "summary": "This IP address is actively performing port scanning, identified by the 'ivre-masscan' User-Agent, to discover open ports and identify running services."
   }
 ]
