@@ -430,5 +430,29 @@
     "ip": "198.46.172.170",
     "classification": "Port Scanning / Service Discovery",
     "summary": "The IP performed a web GET request with the 'ivre-masscan' user agent, clearly indicating a port scanning and service discovery operation."
+  },
+  {
+    "timestamp": "2026-05-29 02:20:46",
+    "ip": "64.89.162.42",
+    "classification": "Generic Web Probe",
+    "summary": "This IP performed a basic HTTP GET request with a non-standard \"Linux Gnu (cow)\" user-agent, suggesting a generic web reconnaissance probe."
+  },
+  {
+    "timestamp": "2026-05-29 02:42:56",
+    "ip": "45.56.79.53",
+    "classification": "Multi-Protocol Service Scanner",
+    "summary": "This IP engaged in extensive multi-protocol probing, sending attempts for RDP, Redis, RTSP, MQTT, and MongoDB, characteristic of an indiscriminate service scanner looking for vulnerable systems."
+  },
+  {
+    "timestamp": "2026-05-29 02:44:41",
+    "ip": "85.217.149.31",
+    "classification": "Web Vulnerability Scan",
+    "summary": "This IP initiated an HTTP GET request with a user-agent explicitly identifying itself as 'ModatScanner', indicating a targeted web vulnerability scan."
+  },
+  {
+    "timestamp": "2026-05-29 02:53:21",
+    "ip": "20.169.105.9",
+    "classification": "Application Vulnerability Scan (Tomcat)",
+    "summary": "This IP used 'zgrab' to specifically probe for the Apache Tomcat Manager interface at '/manager/text/list', indicating an attempt to discover application vulnerabilities."
   }
 ]
