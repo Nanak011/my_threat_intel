@@ -574,5 +574,17 @@
     "ip": "5.61.209.224",
     "classification": "Path Traversal Attempt",
     "summary": "This IP attempted a directory traversal attack to read the /etc/passwd file, indicative of a reconnaissance or data exfiltration probe."
+  },
+  {
+    "timestamp": "2026-05-29 13:43:32",
+    "ip": "45.125.5.56",
+    "classification": "Remote Code Execution Attempt",
+    "summary": "This IP attempted a command injection exploit via the /login.cgi URI to download and execute a script from a remote server, indicating a remote code execution attempt."
+  },
+  {
+    "timestamp": "2026-05-29 13:53:06",
+    "ip": "109.123.101.63",
+    "classification": "Connection Attempt",
+    "summary": "This IP initiated a connection to the honeypot without sending any application-layer data, suggesting a basic port scan or an incomplete connection."
   }
 ]
