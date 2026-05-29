@@ -570,12 +570,6 @@
     "summary": "Sent unintelligible binary or malformed data, suggesting a non-standard protocol probe or corrupted connection attempt."
   },
   {
-    "timestamp": "2026-05-29 15:45:00",
-    "ip": "99.99.99.99",
-    "classification": "Web Scanner Probe",
-    "summary": "The IP initiated an HTTP GET request to an unusual path, indicative of a web scanner probing for server presence or potential endpoints."
-  },
-  {
     "timestamp": "2026-05-29 13:28:07",
     "ip": "5.61.209.224",
     "classification": "Path Traversal Attempt",
