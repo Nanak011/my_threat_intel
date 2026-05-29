@@ -232,5 +232,17 @@
     "ip": "177.124.88.216",
     "classification": "Port Scanning",
     "summary": "This IP address is actively performing port scanning, identified by the 'ivre-masscan' User-Agent, to discover open ports and identify running services."
+  },
+  {
+    "timestamp": "2026-05-29 00:42:23",
+    "ip": "151.243.11.35",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP performed a basic HTTP GET request using curl, indicative of an automated scan attempting to discover open web services."
+  },
+  {
+    "timestamp": "2026-05-29 00:46:40",
+    "ip": "187.108.1.142",
+    "classification": "Masscan Internet Scan",
+    "summary": "This IP conducted an internet-wide port scan using the `masscan` tool, signaling broad reconnaissance activity to discover active hosts and services."
   }
 ]
