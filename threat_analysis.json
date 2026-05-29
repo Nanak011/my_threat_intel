@@ -574,5 +574,11 @@
     "ip": "99.99.99.99",
     "classification": "Web Scanner Probe",
     "summary": "The IP initiated an HTTP GET request to an unusual path, indicative of a web scanner probing for server presence or potential endpoints."
+  },
+  {
+    "timestamp": "2026-05-29 13:28:07",
+    "ip": "5.61.209.224",
+    "classification": "Path Traversal Attempt",
+    "summary": "This IP attempted a directory traversal attack to read the /etc/passwd file, indicative of a reconnaissance or data exfiltration probe."
   }
 ]
