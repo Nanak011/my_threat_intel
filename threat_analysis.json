@@ -526,5 +526,47 @@
     "ip": "66.132.172.141",
     "classification": "Internet-wide Scan (Censys)",
     "summary": "This IP is identified as a CensysInspect scanner, performing internet-wide reconnaissance scans to discover and fingerprint services."
+  },
+  {
+    "timestamp": "2026-05-28 11:40:25",
+    "ip": "20.65.194.183",
+    "classification": "Web Scanner Probe",
+    "summary": "Automated web scanner identified by 'zgrab' user-agent, probing for known application paths like '/developmentserver/metadatauploader'."
+  },
+  {
+    "timestamp": "2026-05-28 11:40:53",
+    "ip": "101.36.122.183",
+    "classification": "RDP Brute Force Attempt / Multi-protocol Scan",
+    "summary": "This IP shows attempts to guess RDP credentials (mstshash=Administrator) alongside general web and RTSP probing, indicating a broad, automated reconnaissance."
+  },
+  {
+    "timestamp": "2026-05-28 11:57:17",
+    "ip": "160.119.69.16",
+    "classification": "Basic Web Scan",
+    "summary": "Performed a basic HTTP GET request to the root path with a generic user-agent, likely an automated web scan."
+  },
+  {
+    "timestamp": "2026-05-28 12:38:59",
+    "ip": "43.153.101.233",
+    "classification": "Basic Web Scan",
+    "summary": "Issued a single HTTP GET request to the root, using a mobile browser user-agent, indicative of a basic web scan."
+  },
+  {
+    "timestamp": "2026-05-28 14:10:05",
+    "ip": "176.65.139.66",
+    "classification": "Shodan Search Engine Crawl",
+    "summary": "Identified as a Shodan internet search engine crawler, performing reconnaissance scans on open ports."
+  },
+  {
+    "timestamp": "2026-05-28 15:21:51",
+    "ip": "185.151.10.235",
+    "classification": "Unclassified Connection",
+    "summary": "Established a connection but sent no discernible data, which is often characteristic of simple port scans or incomplete connections."
+  },
+  {
+    "timestamp": "2026-05-28 15:21:52",
+    "ip": "193.235.238.6",
+    "classification": "Unclassified Connection",
+    "summary": "Sent unintelligible binary or malformed data, suggesting a non-standard protocol probe or corrupted connection attempt."
   }
 ]
