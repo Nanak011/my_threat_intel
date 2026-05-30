@@ -1,4 +1,5 @@
-# ** V1 of threat_intel(https://github.com/Nanak011/threat_intel)**
+# V1 of 
+**[threat_intel](https://github.com/Nanak011/threat_intel)**
 
 # ARCHIVED: Single-Node Honeypot Project
 
