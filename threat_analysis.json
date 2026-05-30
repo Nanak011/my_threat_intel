@@ -1192,5 +1192,29 @@
     "ip": "45.205.1.245",
     "classification": "Basic Web Probe",
     "summary": "A 'curl' user agent performed a basic GET request to the root path, likely for initial reconnaissance or connectivity testing."
+  },
+  {
+    "timestamp": "2026-05-30 10:23:10",
+    "ip": "66.132.172.109",
+    "classification": "Internet Port/Service Scanner",
+    "summary": "This IP address is identified as a Censys scanner, actively performing broad port scanning and service discovery attempts including HTTP, WebSocket, and MQTT protocols."
+  },
+  {
+    "timestamp": "2026-05-30 10:32:16",
+    "ip": "34.38.201.101",
+    "classification": "Automated Web Probe",
+    "summary": "The IP initiated an automated HTTP GET request using the 'python-requests' library, indicating a scripted web probe."
+  },
+  {
+    "timestamp": "2026-05-30 10:48:55",
+    "ip": "223.123.73.119",
+    "classification": "Default Credential Brute Force",
+    "summary": "This IP attempted to log in to a 'boaform' administration panel using default 'admin' credentials, indicative of a brute force attack."
+  },
+  {
+    "timestamp": "2026-05-30 10:59:37",
+    "ip": "65.49.20.67",
+    "classification": "Port Scan and Protocol Probe",
+    "summary": "This IP sent multiple instances of malformed or binary data, suggesting a port scan attempting to elicit responses from various services or test for vulnerabilities."
   }
 ]
