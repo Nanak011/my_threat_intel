@@ -1024,5 +1024,59 @@
     "ip": "45.33.109.8",
     "classification": "Multi-Protocol Reconnaissance Scan (ZGrab)",
     "summary": "This IP performed an aggressive, multi-protocol reconnaissance scan, identified by the ZGrab user agent, probing various common services."
+  },
+  {
+    "timestamp": "2026-05-30 04:06:59",
+    "ip": "209.182.233.12",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP is identified as a web scanner, likely performing basic port scanning and service identification using ivre-masscan."
+  },
+  {
+    "timestamp": "2026-05-30 04:08:18",
+    "ip": "45.205.1.73",
+    "classification": "Basic Web Probe",
+    "summary": "This IP made a basic HTTP GET request using curl, likely an initial probe or automated health check."
+  },
+  {
+    "timestamp": "2026-05-30 04:37:18",
+    "ip": "185.189.182.234",
+    "classification": "Basic Web Probe",
+    "summary": "This IP performed a simple HTTP GET request without a specific User-Agent, indicating a generic web probe."
+  },
+  {
+    "timestamp": "2026-05-30 05:06:31",
+    "ip": "151.185.42.72",
+    "classification": "Web Shell Exploitation Attempt",
+    "summary": "This IP is attempting to exploit a path traversal vulnerability in cgi-bin to execute a remote shell script, likely for deploying malware or establishing persistence."
+  },
+  {
+    "timestamp": "2026-05-30 05:07:03",
+    "ip": "40.124.184.7",
+    "classification": "Tomcat Manager Panel Scan",
+    "summary": "This IP, identified by ZGrab, is specifically scanning for the Apache Tomcat Manager HTML interface, indicating an attempt to discover and potentially exploit vulnerable management panels."
+  },
+  {
+    "timestamp": "2026-05-30 05:19:16",
+    "ip": "13.218.88.108",
+    "classification": "Generic Web Probe",
+    "summary": "This IP performed a simple HTTP GET request with a common browser user agent, suggesting a general web probe or reconnaissance."
+  },
+  {
+    "timestamp": "2026-05-30 05:22:04",
+    "ip": "198.235.24.78",
+    "classification": "Commercial Security Scanner",
+    "summary": "This IP belongs to Palo Alto Networks' Cortex Xpanse, indicating a legitimate security scan for asset discovery and vulnerability assessment."
+  },
+  {
+    "timestamp": "2026-05-30 05:48:12",
+    "ip": "45.164.146.28",
+    "classification": "Command Injection Attempt",
+    "summary": "This IP is attempting a command injection attack via the URL to download and execute a malicious payload named \"jaws,\" self-identifying with a \"terrabot-owned-you\" user agent."
+  },
+  {
+    "timestamp": "2026-05-30 05:53:02",
+    "ip": "47.91.29.58",
+    "classification": "Basic Web Probe",
+    "summary": "This IP made a basic HTTP GET request using curl, likely an initial probe or automated health check."
   }
 ]
