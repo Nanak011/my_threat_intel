@@ -1078,5 +1078,71 @@
     "ip": "47.91.29.58",
     "classification": "Basic Web Probe",
     "summary": "This IP made a basic HTTP GET request using curl, likely an initial probe or automated health check."
+  },
+  {
+    "timestamp": "2026-05-30 06:04:44",
+    "ip": "103.123.226.10",
+    "classification": "Web Scanner Probe",
+    "summary": "This IP is identified as conducting a rapid network scan using `ivre-masscan`, likely probing for open HTTP services."
+  },
+  {
+    "timestamp": "2026-05-30 06:05:01",
+    "ip": "101.36.111.38",
+    "classification": "Multi-Protocol Reconnaissance / Brute Force",
+    "summary": "This IP engaged in a mix of web service probing, sending malformed requests, and specifically attempted to log in using 'anonymous' credentials, indicative of FTP brute force or reconnaissance."
+  },
+  {
+    "timestamp": "2026-05-30 06:08:43",
+    "ip": "74.82.47.5",
+    "classification": "Binary Protocol Scan / Brute Force",
+    "summary": "This IP sent multiple streams of seemingly binary or malformed data, suggesting a scan or brute-force attempt against a non-HTTP service like RDP or SSH."
+  },
+  {
+    "timestamp": "2026-05-30 06:30:12",
+    "ip": "176.65.149.111",
+    "classification": "Web Reconnaissance",
+    "summary": "This IP made basic HTTP GET requests, typical for automated web reconnaissance or status checks."
+  },
+  {
+    "timestamp": "2026-05-30 07:22:39",
+    "ip": "8.216.88.92",
+    "classification": "Multi-Protocol Scan / Aggressive Reconnaissance",
+    "summary": "This IP initiated an HTTP GET request followed by a series of malformed or binary data transmissions, characteristic of an aggressive multi-protocol scanner attempting to identify or exploit services."
+  },
+  {
+    "timestamp": "2026-05-30 07:24:04",
+    "ip": "64.62.197.62",
+    "classification": "Web Reconnaissance",
+    "summary": "This IP made basic HTTP GET requests, typical for automated web reconnaissance or status checks."
+  },
+  {
+    "timestamp": "2026-05-30 07:29:52",
+    "ip": "45.205.1.242",
+    "classification": "Web Reconnaissance",
+    "summary": "This IP made basic HTTP GET requests, typical for automated web reconnaissance or status checks."
+  },
+  {
+    "timestamp": "2026-05-30 07:53:06",
+    "ip": "81.19.216.99",
+    "classification": "Infrastructure Monitoring / Reconnaissance",
+    "summary": "This IP performed a GET request to the root path, identifying itself as an 'Infrawatch' monitoring tool, which in a honeypot context is considered reconnaissance."
+  },
+  {
+    "timestamp": "2026-05-30 07:53:06",
+    "ip": "193.176.31.217",
+    "classification": "Binary Protocol Scan / Brute Force",
+    "summary": "This IP sent multiple streams of seemingly binary or malformed data, suggesting a scan or brute-force attempt against a non-HTTP service like RDP or SSH."
+  },
+  {
+    "timestamp": "2026-05-30 07:53:07",
+    "ip": "89.21.67.181",
+    "classification": "API Enumeration / Web Vulnerability Scan",
+    "summary": "This IP specifically targeted an API endpoint with parameters, indicative of an attempt to enumerate API functionality or find vulnerabilities."
+  },
+  {
+    "timestamp": "2026-05-30 07:53:45",
+    "ip": "45.156.128.37",
+    "classification": "Web Application Reconnaissance / Directory Enumeration",
+    "summary": "This IP performed an initial web request followed by a probe for a common login endpoint (`/showLogin.cc`), consistent with web application reconnaissance."
   }
 ]
