@@ -724,5 +724,47 @@
     "ip": "143.105.129.244",
     "classification": "Remote Code Execution Attempt",
     "summary": "This IP is attempting a remote code execution exploit targeting GPON router vulnerabilities, aiming to download and execute a malicious payload to likely recruit the device into a botnet."
+  },
+  {
+    "timestamp": "2026-05-29 22:45:53",
+    "ip": "159.65.168.103",
+    "classification": "Network Reconnaissance / Service Discovery",
+    "summary": "This IP performed a GET request using a `zgrab` user-agent, followed by garbled data, indicative of automated network reconnaissance and service discovery."
+  },
+  {
+    "timestamp": "2026-05-29 22:47:35",
+    "ip": "69.5.169.237",
+    "classification": "Infrastructure Monitoring Probe",
+    "summary": "This IP made a GET request using the `Infrawatch` user-agent, suggesting an automated infrastructure monitoring probe."
+  },
+  {
+    "timestamp": "2026-05-29 23:33:28",
+    "ip": "181.25.17.93",
+    "classification": "GPON Router RCE / Botnet Recruitment",
+    "summary": "This IP attempted a command injection attack against a GPON router diagnostic form, using `busybox wget` to download and execute a payload, characteristic of botnet recruitment."
+  },
+  {
+    "timestamp": "2026-05-30 00:00:32",
+    "ip": "130.12.180.52",
+    "classification": "Proxy Check / Tunneling Attempt",
+    "summary": "This IP made two `CONNECT` requests to an external proxy server, suggesting an attempt to check proxy functionality or establish an SSL/TLS tunnel."
+  },
+  {
+    "timestamp": "2026-05-30 00:07:46",
+    "ip": "45.205.1.243",
+    "classification": "Basic Web Scan / Connectivity Check",
+    "summary": "This IP performed a simple GET request using the `curl` user-agent, indicative of a basic web scan or connectivity check."
+  },
+  {
+    "timestamp": "2026-05-30 00:11:31",
+    "ip": "45.4.255.174",
+    "classification": "GPON Router RCE / Botnet Recruitment",
+    "summary": "This IP attempted a command injection attack against a GPON router diagnostic form, using `busybox wget` to download and execute a payload, characteristic of botnet recruitment."
+  },
+  {
+    "timestamp": "2026-05-30 00:15:54",
+    "ip": "217.142.25.78",
+    "classification": "GPON Router RCE / Botnet Recruitment",
+    "summary": "This IP attempted a command injection attack against a GPON router diagnostic form, using `busybox wget` to download and execute a payload, characteristic of botnet recruitment."
   }
 ]
