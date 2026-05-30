@@ -1216,5 +1216,23 @@
     "ip": "65.49.20.67",
     "classification": "Port Scan and Protocol Probe",
     "summary": "This IP sent multiple instances of malformed or binary data, suggesting a port scan attempting to elicit responses from various services or test for vulnerabilities."
+  },
+  {
+    "timestamp": "2026-05-30 12:09:46",
+    "ip": "220.126.98.16",
+    "classification": "Command Injection / Malware Delivery",
+    "summary": "This IP attempted a path traversal command injection to download and execute a malicious script from an external server, indicating a severe compromise attempt."
+  },
+  {
+    "timestamp": "2026-05-30 13:16:44",
+    "ip": "156.67.83.141",
+    "classification": "Automated Web Scanner",
+    "summary": "This IP used a Go-based HTTP client to make a basic GET request, indicative of an automated web scanner performing initial checks."
+  },
+  {
+    "timestamp": "2026-05-30 13:45:43",
+    "ip": "66.228.45.128",
+    "classification": "Port Scan / Connection Attempt",
+    "summary": "This IP initiated a connection that did not result in an application layer request, suggesting a basic port scan or a dropped connection attempt."
   }
 ]
