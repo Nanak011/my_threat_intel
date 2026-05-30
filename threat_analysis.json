@@ -1144,5 +1144,53 @@
     "ip": "45.156.128.37",
     "classification": "Web Application Reconnaissance / Directory Enumeration",
     "summary": "This IP performed an initial web request followed by a probe for a common login endpoint (`/showLogin.cc`), consistent with web application reconnaissance."
+  },
+  {
+    "timestamp": "2026-05-30 08:13:19",
+    "ip": "89.21.67.162",
+    "classification": "Web Scanner Probe",
+    "summary": "An automated web scanner identified by the 'Infrawatch' user agent performed a basic GET request to the root path."
+  },
+  {
+    "timestamp": "2026-05-30 08:13:19",
+    "ip": "89.21.67.169",
+    "classification": "Protocol Confusion / Port Scan",
+    "summary": "A connection sent malformed or non-HTTP data, indicating a likely port scan or an attempt to trigger protocol confusion."
+  },
+  {
+    "timestamp": "2026-05-30 08:13:20",
+    "ip": "81.19.216.68",
+    "classification": "Protocol Confusion / Port Scan",
+    "summary": "A connection sent malformed or non-HTTP data, indicating a likely port scan or an attempt to trigger protocol confusion."
+  },
+  {
+    "timestamp": "2026-05-30 08:13:20",
+    "ip": "81.19.216.106",
+    "classification": "API Endpoint Enumeration",
+    "summary": "An attacker attempted to enumerate specific API endpoints, likely searching for known vulnerabilities or accessible data."
+  },
+  {
+    "timestamp": "2026-05-30 08:20:07",
+    "ip": "157.22.253.198",
+    "classification": "Connection Probe",
+    "summary": "A connection was established but sent no discernible data, possibly a basic port scan check or an aborted connection."
+  },
+  {
+    "timestamp": "2026-05-30 09:37:13",
+    "ip": "188.166.190.189",
+    "classification": "Connection Probe",
+    "summary": "A connection was established but sent no discernible data, possibly a basic port scan check or an aborted connection."
+  },
+  {
+    "timestamp": "2026-05-30 09:45:38",
+    "ip": "20.163.15.124",
+    "classification": "Web Vulnerability Scan",
+    "summary": "The 'zgrab' user agent indicates a reconnaissance or vulnerability scan targeting a specific web path."
+  },
+  {
+    "timestamp": "2026-05-30 09:53:15",
+    "ip": "45.205.1.245",
+    "classification": "Basic Web Probe",
+    "summary": "A 'curl' user agent performed a basic GET request to the root path, likely for initial reconnaissance or connectivity testing."
   }
 ]
