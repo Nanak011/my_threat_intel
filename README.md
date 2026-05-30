@@ -1,5 +1,4 @@
-# V1 of 
-**[threat_intel](https://github.com/Nanak011/threat_intel)**
+# V1 of **[threat_intel](https://github.com/Nanak011/threat_intel)**
 
 # ARCHIVED: Single-Node Honeypot Project
 
@@ -25,4 +24,5 @@ The new system fixes these prototype issues through:
 
 ### View the Live Multi-Node Project
 The upgraded architecture, live visualization dashboard, and optimized code are actively maintained here:
-**[New Multi-Node Threat Intel Network & Dashboard](https://github.com/nanak011/threat_intel](https://nanak011.github.io/threat_intel/))**
+
+**[New Multi-Node Threat Intel Network & Dashboard](https://nanak011.github.io/threat_intel/)**
